@@ -19,7 +19,7 @@ It enables detailed exploration of typhoon evolution through satellite imagery, 
   - Automatically detects typhoon IDs and loads corresponding HDF5 image sequences and metadata CSVs.
   - Handles coordinate (`lat`, `lng`) and intensity (`grade`) attributes.
 
-- **🌀 visualisation**
+- **🌀 Visualisation**
   - Display static frames or create **animated GIFs** showing typhoon evolution over time.
   - Plot typhoon **trajectories** on world maps, color-coded by intensity.
 
