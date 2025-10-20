@@ -1,2 +1,32 @@
-# Typhoon-Intensity-Net
-Visualization and analysis methods for the Digital Typhoon Dataset, featuring trajectory mapping, probability modeling, and (later)  intensity prediction via Deep Learning models
+## 🌪️ Typhoon Intensity Data Visualisation & Deep Learning
+
+<img width="1693" height="1034" alt="download" src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" />
+
+This project provides some methods for loading, visualising, and analyzing typhoon imagery and metadata from the **Australian portion of the [Digital Typhoon Dataset](https://agora.ex.nii.ac.jp/digital-typhoon/dataset/)**.  
+It enables detailed exploration of typhoon evolution through satellite imagery, trajectory tracking with intensity visualization, and probabilistic mapping of global typhoon occurrence regions.
+
+---
+
+### 🚀 Features
+
+- **📂 Dataset Loading**
+  - Automatically detects typhoon IDs and loads corresponding HDF5 image sequences and metadata CSVs.
+  - Handles coordinate (`lat`, `lng`) and intensity (`grade`) attributes.
+
+- **🌀 Visualization**
+  - Display static frames or create **animated GIFs** showing typhoon evolution over time.
+  - Plot typhoon **trajectories** on world maps, color-coded by intensity.
+
+- **🌍 Statistical Analysis**
+  - Visualize **Gaussian-like probability regions** showing areas with the highest typhoon occurrence densities.
+  - Project these probability “bubbles” over world maps, focusing on **Southeast Asia and Australasia**.
+  - Color gradients indicate occurrence probability, with legends showing intensity ranges.
+
+- **📈 Extensible Framework**
+  - Modular structure for integrating additional analytical components.
+  - Upcoming functionality for **machine learning model training** to predict features such as **typhoon intensity and trajectory trends**.
+
+---
+
+🧪 *This repository is a work in progress.*  
+Future updates should include **predictive modeling** using historical typhoon data to forecast intensity via Deep Learning.
