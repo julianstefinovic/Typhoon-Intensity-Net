@@ -1,7 +1,9 @@
+<div align="center">
+
 ## 🌪️ Typhoon Intensity Data Visualisation & Deep Learning
 
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" width="800">
+<img src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" width="800">
+
 </div>
 
 ---
