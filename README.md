@@ -1,6 +1,10 @@
 ## 🌪️ Typhoon Intensity Data Visualisation & Deep Learning
 
-<img width="1693" height="1034" alt="download" src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" />
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" width="800">
+</div>
+
+---
 
 This project provides some methods for loading, visualising, and analyzing typhoon imagery and metadata from the **Australian portion of the [Digital Typhoon Dataset](https://agora.ex.nii.ac.jp/digital-typhoon/dataset/)**.  
 It enables detailed exploration of typhoon evolution through satellite imagery, trajectory tracking with intensity visualization, and probabilistic mapping of global typhoon occurrence regions.
