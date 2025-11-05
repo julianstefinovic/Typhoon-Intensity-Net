@@ -2,11 +2,13 @@
 
 ## 🌪️ Typhoon Data Visualisation & Deep Learning
 
-<img src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" width="800">
-
-<img src="https://github.com/user-attachments/assets/e26c8dc0-c7d0-4d89-be47-eaa7b209824e" width="800">
+<div style="display: flex; justify-content: center; gap: 10px;">
+  <img src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" width="400">
+  <img src="https://github.com/user-attachments/assets/e26c8dc0-c7d0-4d89-be47-eaa7b209824e" width="400">
+</div>
 
 </div>
+
 
 ---
 
