@@ -4,15 +4,20 @@
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
   <img src="https://github.com/user-attachments/assets/e531c3b2-3432-4b8a-9e28-c07baa8dccbf" width="400" style="height: 250px; object-fit: cover;">
-  <img src="https://github.com/user-attachments/assets/e26c8dc0-c7d0-4d89-be47-eaa7b209824e" width="400" style="height: 250px; object-fit: cover;">
+  <img src="https://github.com/user-attachments/assets/e63ee1b5-1c7f-495d-85ac-12a999f2efcf" width="400" style="height: 250px; object-fit: cover;">
+  
 </div>
 
 </div>
+
+
 
 ---
 
 This project provides some methods for loading, visualising, and analysing typhoon imagery and metadata from the **Australian portion of the [Digital Typhoon Dataset](https://agora.ex.nii.ac.jp/digital-typhoon/dataset/)**.  
 It enables detailed exploration of typhoon evolution through satellite imagery, trajectory tracking with intensity visualisation, and probabilistic mapping of global typhoon occurrence regions.
+
+Secondly, the project trains a Convolutional Long Short-Term Memory Network (ConvLSTM) to predict the typhoon grade given a 10-frame sequence of hour-by-hour infrared images. The model achieves an impressive **94%+ accuracy** across all typhoon grades on a held-out test set, as shown in the confusion matrix in the [training notebook](training.ipynb)
 
 ---
 
