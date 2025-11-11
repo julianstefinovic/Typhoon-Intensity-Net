@@ -17,7 +17,7 @@
 This project provides some methods for loading, visualising, and analysing typhoon imagery and metadata from the **Australian portion of the [Digital Typhoon Dataset](https://agora.ex.nii.ac.jp/digital-typhoon/dataset/)**.  
 It enables detailed exploration of typhoon evolution through satellite imagery, trajectory tracking with intensity visualisation, and probabilistic mapping of global typhoon occurrence regions.
 
-Secondly, the project trains a Convolutional Long Short-Term Memory Network (ConvLSTM) to predict the typhoon grade given a 10-frame sequence of hour-by-hour infrared images. The model achieves an impressive **94%+ accuracy** across all typhoon grades on a held-out test set, as shown in the confusion matrix in the [training notebook](training.ipynb)
+Secondly, the project trains a Convolutional Long Short-Term Memory Network (ConvLSTM) to predict the typhoon grade given a 10-frame sequence of hour-by-hour infrared images. The model achieves an impressive **94%+ accuracy** across all typhoon grades on a held-out test set, as shown in the confusion matrix in the [training notebook](training.ipynb).
 
 ---
 
@@ -28,12 +28,12 @@ Secondly, the project trains a Convolutional Long Short-Term Memory Network (Con
   - Handles coordinate (`lat`, `lng`) and intensity (`grade`) attributes.
 
 - **🌀 Visualisation**
-  - Display static frames or create **animated GIFs** showing typhoon evolution over time.
-  - Plot typhoon **trajectories** on world maps, colour-coded by intensity.
+  - Displays static frames or create **animated GIFs** showing typhoon evolution over time.
+  - Plots typhoon **trajectories** on world maps, colour-coded by intensity.
 
 - **🌍 Statistical Analysis**
-  - Visualise **Gaussian-like probability regions** showing areas with the highest typhoon occurrence densities.
-  - Project these probability “bubbles” over world maps, focusing on **Southeast Asia and Australasia**.
+  - Visualisation of **Gaussian-like probability regions** showing areas with the highest typhoon occurrence densities.
+  - Projection of probability “bubbles” over world maps, focusing on **Southeast Asia and Australasia**.
   - Colour gradients indicate occurrence probability, with legends showing intensity ranges.
 
 ---
